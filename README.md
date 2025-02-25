@@ -1,17 +1,17 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 34441
 
 ## Current behavior
 
-Explain the current behavior here.
+```
+Renovate failed to look up the following dependencies: Failed to look up docker package "docker.io/library/docker.
+
+Files affected: Dockerfile
+```
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate should be able to look up the container image.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/34441
